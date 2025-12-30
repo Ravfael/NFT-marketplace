@@ -75,6 +75,8 @@ The project includes several scripts to interact with the deployed marketplace:
 
 To run a script (e.g., mint and list):
 
+first run this one: yarn hardhat node
+
 ```bash
 yarn hardhat run scripts/mint-and-list-item.js --network localhost
 ```
